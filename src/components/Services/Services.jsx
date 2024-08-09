@@ -35,6 +35,8 @@
 // ];
 // const Services = () => {
 //     return (
+//         <>
+//         <span id="services"></span>
 //         <div className=''>
 //             <div className="container">
 //                 {/* header title  */}
@@ -51,7 +53,11 @@
 //                     {
 //                         ServicesData.map((data,index)=>{
 //                             return(
-//                                 <div key={index}
+//                                 <div
+//                                 data-aos="fade-up"
+//                                 data-aos-delay={data.aosDelay}
+                                
+//                                 key={index}
 //                                 className='rounded-2xl bg-white hover:bg-primary
 //                                hover:text-white shadow-xl duration-200 max-w-[300px] group
 //                                 relative
@@ -67,10 +73,10 @@
 
 //                                     {/* Text Content */}
 
-//                                     <div>
+//                                     <div className='p-4 text-center'>
 //                                         <h1 className='text-xl font-bold'>{data.name}</h1>
 //                                         <p className='text-gray-500 group-hover:text-white duration-300
-//                                         text-sm line-clamp-2
+//                                         text-sm line-clampp-23
                                         
 //                                          '>{data.description}</p>
 
@@ -87,6 +93,7 @@
 //                 </div>
 //             </div>
 //         </div>
+//         </>
 //     );
 // }
 
