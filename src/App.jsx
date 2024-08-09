@@ -1,9 +1,11 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos'
 import "aos/dist/aos.css"
-// import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 // import Services from './components/Services/Services';
+// import Banner from './components/Banner/Banner';
+// import AppStore from './components/AppStore/AppStore';
 const App = () => {
   useEffect(()=>{
     AOS.init({
@@ -16,9 +18,11 @@ const App = () => {
   });
   return (
     <div className="overflow-x-hidden"> 
-           {/* <Navbar/> */}
+           <Navbar/>
            <Home/>
-           {/* <Services/> */}
+           {/* <Services/>
+           <Banner/>
+           <AppStore/> */}
            
       
     </div>
