@@ -6,8 +6,8 @@ import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import Banner from './components/Banner/Banner';
 import AppStore from './components/AppStore/AppStore';
-// import Testimonial from './components/Testmonial/Testimonial';
-// import Footer from './components/Footer/Footer';
+import Testimonial from './components/Testmonial/Testimonial';
+import Footer from './components/Footer/Footer';
 const App = () => {
   useEffect(()=>{
     AOS.init({
@@ -26,7 +26,7 @@ const App = () => {
            <Banner/>
            <AppStore/>
             <Testimonial/>
-          
+            <Footer/>
             
       
     </div>
