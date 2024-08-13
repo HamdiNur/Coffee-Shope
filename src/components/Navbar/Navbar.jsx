@@ -29,7 +29,7 @@ const Navbar = () => {
                 items-center gap-4">
                     {/* Logo section */}
 
-                    <div className="">
+                    <div data-aos="fade-down" data-aos-once="true ">
                         <a href="#" className="font-bold 
                 text-2xl sm:text-3xl flex justify-center
                  items-center gap-2 tracking-wider 
@@ -42,7 +42,12 @@ const Navbar = () => {
                     </div>
 
                     {/* Links section */}
-                    <div className='flex justify-between
+                    <div 
+                    data-aos="fade-down" 
+                    data-aos-once="true"
+                    data-aos-delay="300"
+
+                    className='flex justify-between
                     items-center gap-4'>
                         <ul className="hidden sm:flex 
                     items-center gap-4">
